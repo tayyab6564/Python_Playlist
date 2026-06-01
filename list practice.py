@@ -13,7 +13,6 @@ cp_list2.reverse()
 if list2 == cp_list2:
     print("list2 is palindrome")
 else:   
-     
      print("list2 is not palindrome")
      
 cp_list3 = list3.copy()
