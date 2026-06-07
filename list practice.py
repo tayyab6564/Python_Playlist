@@ -1,6 +1,6 @@
-fruit1 = input("enter 3 favroit fruit names: ")
-fruit2 = input()
-fruit3 = input()
+fruit1 = input("enter 3 favroit fruit names: \n1. ")
+fruit2 = input("2. ")
+fruit3 = input("3. ")
 list1 = [fruit1 , fruit2 , fruit3]
 print(list1)
 

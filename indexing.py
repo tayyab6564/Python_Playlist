@@ -8,7 +8,7 @@ print(str1[2])  #print the third character of the string
 print(str1[3])  #print the fourth character of the string
 print(str1[4])  #print the fifth character of the string
 
-# str[0]="A"  <----replacing not possible in python
+# str[0]="A"  <----updation of string is not possible in python
 
 #       Negative Indexing
 #    t    a  y  y  a  b  _  u  m  a  r
