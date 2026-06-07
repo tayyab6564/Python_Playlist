@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 #       Positive slicing
 #    t  a  y  y  a  b  _  u  m  a  r
 #    0  1  2  3  4  5  6  7  8  9 10
@@ -15,9 +14,7 @@ print(str1[:])  #print the characters from index 0 to last index
 print(str1[-5:-1])  #print the characters from index -5 to -2 (-1 is excluded
 print(str1[-11:])  #print the characters from index -11 to last index
 print(str1[:-5])  #print the characters from index 0 to -6 (-5 is excluded)
-=======
-=======
->>>>>>> 9acceba9bba6cbad07ee253477186a2c498d2db7
+
 #       Positive slicing
 #    t  a  y  y  a  b  _  u  m  a  r
 #    0  1  2  3  4  5  6  7  8  9 10
@@ -33,8 +30,5 @@ print(str1[:])  #print the characters from index 0 to last index
 print(str1[-5:-1])  #print the characters from index -5 to -2 (-1 is excluded
 print(str1[-11:])  #print the characters from index -11 to last index
 print(str1[:-5])  #print the characters from index 0 to -6 (-5 is excluded)
-<<<<<<< HEAD
->>>>>>> 6ba159f (adding some functions)
-=======
->>>>>>> 9acceba9bba6cbad07ee253477186a2c498d2db7
+
 print(str1[:])  #print the characters from index 0 to last index
