@@ -49,6 +49,7 @@ def city(i):
 city(cities)    
 
 #print factorial of a number using parameter n
+"""
 num = int(input("\nEnter a number to print its factorial: "))
 
 def fac(n):
@@ -61,5 +62,23 @@ def fac(n):
  return fact
 
 print(fac(num))
+"""
 
+#convert usd to pkr using function
+"""
+amount = int(input("\nenter ammount in usd: "))
+def conversion(n):
+   ans = n * 278 
+   print(ans," pkr")
 
+conversion(amount)"""
+
+#Even or Odd
+num = int(input("\nEnter a number: "))
+def number(n):
+ if(n % 2 == 0):
+  print(n,"is an even number.")
+ else:
+      print(n,"is an odd number.")
+
+number(num)      
