@@ -5,10 +5,14 @@
 # 5.w+ --> write+read(file will open and all data will be erased)
 # 6.a+ --> append plus(data do not truncate, can read data and can write at end)
 # 7. with syntex (it automatically close file do not need manually to close a file)
-# 8.import os  os.remove --> delete file
+# 8. import os  os.remove --> delete file
 # 9. replace(to be replaced , which will be replaced)
+#10. find a world in file
+#11. find line of first occurance of a number
+#12. count even numbers in a file
 
-                #  1.read data from file
+
+#            1.read data from file
 """
 f = open("file.txt","r")#use file name if file is in same folder
 #f = open("D:\Tayyab\io file.txt","r") #use file location when file is in another folder
@@ -90,7 +94,7 @@ import os
 os.remove("File.txt")
 """
 
-#      replace(new , old)
+#             9. replace(new , old)
 """
 with open("file.txt","r+") as f: 
  data = f.read()
@@ -101,7 +105,7 @@ with open("file.txt","r+") as f:
 print("data in file is: \n",data1)
 """
 
-#find a world in file
+#            10. find a world in file
 """
 def find_word():
  with open("file.txt","r") as f: 
@@ -114,7 +118,8 @@ def find_word():
 find_word()
 """
 
-#find line of first occurance of a number
+#            11. find line of first occurance of a number
+"""
 def find_word():
  with open("file.txt","r") as f: 
    word = input("Enter world to find from file: ")
@@ -130,3 +135,21 @@ def find_word():
      return
 
 find_word()
+"""
+
+#              12. count even numbers in a file
+def count_num():
+ with open("file.txt","w") as f: 
+  f.write("1,2,3,4,5,6,7,8,9")
+
+ with open("file.txt","r") as f: 
+   count = 0
+   data =  f.read()
+   data1 = data.split(",") #<--split data using 'num1','num2',....
+   for val in data1:
+    if(int(val) % 2 == 0): #use typecasting to convert to integers
+     count += 1
+   print("Total even numbers are: ",count)
+
+count_num()
+
